@@ -1,0 +1,286 @@
+html {
+  height: 100%;
+}
+
+body
+{
+	font-family: arial,sans-serif;
+	min-height: 100%;
+	width: 99.93% ;
+  	margin: 0;
+  	padding: 0;
+  	position: relative;
+}
+header
+{
+	font-size: small;
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+}
+
+.GmailImage
+{
+	color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    margin: 1em;
+}
+.GmailImage:hover
+{
+	opacity: .85;
+    text-decoration: underline;
+    margin: 1em;
+}
+.Menu
+{
+	opacity:.70;
+	margin: 1em;
+}
+.Menu:hover
+{
+	opacity:1;
+}
+.Connexion
+{
+	color: #fff;
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	border: 1px solid #4285f4;
+	font-weight: bold;
+	outline: none;
+	text-decoration: none;
+	display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    margin: 1em;
+}
+
+
+
+
+button
+
+{
+    
+    position: absolute;
+    margin : 15% 45%;
+    
+}
+
+
+
+section
+
+
+{
+    width: 100%
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 10% 10% 10% 30%;
+    position: relative;
+
+}
+.Logo
+{
+    width: 18em;
+    height: 6em;
+    padding: 0.5em 0 ;
+    margin-left : 17%;
+
+}
+/*#barrerecherche
+{
+    width: 50%;
+    height: 2.4em;
+    border: 1px gray solid;
+    opacity:0.3;
+    box-shadow: 1px 1px 0.5px black;
+    margin: 0.5em 0
+    
+}*/
+input
+{
+	width: 65%;
+    height: 2.4em;
+    border: 1px gray solid;
+    opacity:1;
+    box-shadow: 1px 1px 0.5px black;
+    margin: 0.5em
+
+}
+
+input:hover
+{
+    box-shadow: 3px 3px 1px black;
+    
+}
+div#boutons
+{
+    display: flex;
+    flex-direction: row ;    
+    margin-top: 1em ;
+    margin-left: 12%;
+
+
+}
+
+button#recherchegoogle
+{
+    padding: 0.5em ;
+    margin: 0.5em ;
+    background-image: -webkit-linear-gradient(top,#f5f5f5
+,#f1f1f1
+);
+    color: #757575
+;
+    font-weight: bold;
+
+}
+button#recherchegoogle:hover
+{
+    border: 1px solid #c6c6c6
+;
+    color: #222;
+}
+
+button#chance
+{
+padding: 0.5em ;
+    margin: 0.5em 0.5em 0.5em 21% ;
+    background-image: -webkit-linear-gradient(top,#f5f5f5
+,#f1f1f1
+);
+    color: #757575
+;
+    font-weight: bold;
+}
+button#chance:hover
+{
+    border: 1px solid #c6c6c6
+;
+    color: #222;
+}
+
+
+
+
+
+footer
+{
+
+	background-color: #f2f2f2;
+	position: absolute; bottom: 0; left: 0; right: 0
+
+}
+
+#pub
+{
+    color: #666;
+    text-decoration: none;
+    padding-left: 2em;
+    
+    
+}
+#entreprise
+{
+    color: #666;
+    text-decoration: none;
+    padding-left: 2em;
+    
+    
+}
+#apropos
+{
+    color: #666;
+    text-decoration: none;
+    padding-left: 2em;
+    
+    
+}
+#confidentialite
+{
+    color: #666;
+    text-decoration: none;
+    padding-left: 2em;
+   
+    
+}
+#conditions
+{
+    color: #666;
+    text-decoration: none;
+    padding-left: 2em;
+    
+    
+}
+#parametres
+{
+    color: #666;
+    text-decoration: none;
+    padding-left: 2em ;
+    padding-right: 2em ;
+    
+    
+}
+
+#pub:hover
+{
+    text-decoration: underline;
+}
+#entreprise:hover
+{
+    text-decoration: underline;
+}
+#apropos:hover
+{
+    text-decoration: underline;
+}
+#confidentialite:hover
+{
+    text-decoration: underline;
+}
+#conditions:hover
+{
+    text-decoration: underline;
+}
+#parametres:hover
+{
+    text-decoration: underline;
+}
+
+
+div#f1
+{
+	display:flex;
+	width: 100%;
+	height: 2em;
+	color: rgba(0,0,0,.54);
+	align-items: center;
+	justify-content: flex-start;
+	border: 1px solid silver ;
+	padding: 0.5em 0
+	
+}
+
+#fr
+{
+	padding-left: 1.6em
+}
+
+div#f2
+{
+	display:flex;
+	width: 100%;
+	height: 2em;
+	color: rgba(0,0,0,.54);
+	align-items: center;
+	text-decoration: none;
+	justify-content: space-between;
+	font-size: small;
+	border: 1px solid silver;
+	padding: 0.5em 0
+}
+
+
